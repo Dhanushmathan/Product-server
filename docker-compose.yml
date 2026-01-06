@@ -5,6 +5,8 @@ services:
     build: .
     ports:
       - "5050:5050"
+    env_file:
+      - .env
     networks:
       - pro-network
 
