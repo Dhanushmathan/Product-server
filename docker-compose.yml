@@ -2,6 +2,7 @@ version: "3.8"
 
 services:
   server:
+    image: dhanushmathan/product-server:v1
     build: .
     ports:
       - "5050:5050"
